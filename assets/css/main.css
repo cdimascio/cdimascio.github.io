@@ -261,10 +261,10 @@ a:hover {
 }
 
 #wrapper {
-  -moz-animation: wrapper 2s forwards;
-  -webkit-animation: wrapper 2s forwards;
-  -ms-animation: wrapper 2s forwards;
-  animation: wrapper 2s forwards;
+  -moz-animation: wrapper 0.75s forwards;
+  -webkit-animation: wrapper 0.75s forwards;
+  -ms-animation: wrapper 0.75s forwards;
+  animation: wrapper 0.75s forwards;
   height: 100%;
   left: 0;
   opacity: 0;
@@ -411,10 +411,10 @@ a:hover {
 }
 
 #overlay {
-  -moz-animation: overlay 0.5s 0.5s forwards;
-  -webkit-animation: overlay 0.5s 0.5s forwards;
-  -ms-animation: overlay 0.5s 0.5s forwards;
-  animation: overlay 0.5s 0.5s forwards;
+  -moz-animation: overlay 0.25s 0.25s forwards;
+  -webkit-animation: overlay 0.25s 0.25s forwards;
+  -ms-animation: overlay 0.25s 0.25s forwards;
+  animation: overlay 0.25s 0.25s forwards;
   background-attachment: fixed, fixed;
   background-image: url('images/overlay-pattern.png'), url('images/overlay.svg');
   background-position: top left, center center;
@@ -595,10 +595,10 @@ a:hover {
 }
 
 #header {
-  -moz-animation: header 0.25s 0.5s forwards;
-  -webkit-animation: header 0.25s 0.5s forwards;
-  -ms-animation: header 0.25s 0.5s forwards;
-  animation: header 0.25s 0.5s forwards;
+  -moz-animation: header 0.5s 0.5s forwards;
+  -webkit-animation: header 0.5s 0.5s forwards;
+  -ms-animation: header 0.5s 0.5s forwards;
+  animation: header 0.5s 0.5s forwards;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
