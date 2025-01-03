@@ -1,0 +1,18 @@
+current directory: /Users/cdimascio/git/cdimascio.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/cdimascio/.rbenv/versions/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/cdimascio/git/cdimascio.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250103-69929-kfqa15 sitelibdir\=./.gem.20250103-69929-kfqa15 clean
+
+current directory: /Users/cdimascio/git/cdimascio.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250103-69929-kfqa15 sitelibdir\=./.gem.20250103-69929-kfqa15
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/cdimascio/git/cdimascio.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250103-69929-kfqa15 sitelibdir\=./.gem.20250103-69929-kfqa15 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250103-69929-kfqa15/racc
+
+current directory: /Users/cdimascio/git/cdimascio.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250103-69929-kfqa15 sitelibdir\=./.gem.20250103-69929-kfqa15 clean
