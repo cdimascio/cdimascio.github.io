@@ -81,10 +81,11 @@
                   href="https://github.com/cdimascio"
                   class="icon fa-github"
                   target="_blank"
-                  onclick="gtag('event', 'click', {
+                  onclick="gtag('event', 'link_click', {
 								'event_category': 'Profile Links',
 								'event_label': 'Github',
-								'value': 1
+								'link_url': event.target.href,
+								'link_text': event.target.innerText,
 							})"
                 >
                   <span class="label">Github</span>
@@ -95,10 +96,11 @@
                   href="https://soundcloud.com/cdimascio/sets/carmine-and-bob-recording"
                   class="icon fa-music"
                   target="_blank"
-                  onclick="gtag('event', 'click', {
+                  onclick="gtag('event', 'link_click', {
 								'event_category': 'Profile Links',
 								'event_label': 'Music',
-								'value': 1
+								'link_url': event.target.href,
+								'link_text': event.target.innerText,
 							})"
                 >
                   <span class="label">Music</span>
@@ -109,10 +111,11 @@
                   href="https://twitter.com/carminedimascio"
                   class="icon fa-twitter"
                   target="_blank"
-                  onclick="gtag('event', 'click', {
+                  onclick="gtag('event', 'link_click', {
 								'event_category': 'Profile Links',
 								'event_label': 'X (Twitter)',
-								'value': 1
+								'link_url': event.target.href,
+								'link_text': event.target.innerText,
 							})"
                 >
                   <span class="label">X</span>
@@ -123,10 +126,11 @@
                   href="https://www.linkedin.com/in/carmine"
                   class="icon fa-linkedin"
                   target="_blank"
-                  onclick="gtag('event', 'click', {
+                  onclick="gtag('event', 'link_click', {
 								'event_category': 'Profile Links',
 								'event_label': 'LinkedIn',
-								'value': 1
+								'link_url': event.target.href,
+								'link_text': event.target.innerText,
 							})"
                 >
                   <span class="label">LinkedIn</span>
@@ -137,10 +141,11 @@
                   href="https://medium.com/@cdimascio"
                   class="icon fa-medium"
                   target="_blank"
-                  onclick="gtag('event', 'click', {
+                  onclick="gtag('event', 'link_click', {
 								'event_category': 'Profile Links',
 								'event_label': 'Medium',
-								'value': 1
+								'link_url': event.target.href,
+								'link_text': event.target.innerText,
 							})"
                 >
                   <span class="label">Blog</span>
@@ -152,10 +157,11 @@
                   class="icon fa-file-text"
                   title="Resume"
                   target="_blank"
-                  onclick="gtag('event', 'click', {
+                  onclick="gtag('event', 'link_click', {
 								'event_category': 'Profile Links',
 								'event_label': 'Resume',
-								'value': 1,
+								'link_url': event.target.href,
+								'link_text': event.target.innerText,
 								'debug_mode':true,
 							})"
                 >
